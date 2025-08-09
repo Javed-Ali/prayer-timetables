@@ -1,0 +1,12 @@
+{
+  "name": "prayer-timetables",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:month": "node scripts/build-month.mjs fiji 2025 08 Pacific/Fiji"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.6",
+    "luxon": "^3.5.0"
+  }
+}
